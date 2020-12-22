@@ -1,3 +1,4 @@
+console.log("loading custom script");
 var UnityLoader = UnityLoader || {
     Compression: {
         identity: {
@@ -3260,6 +3261,7 @@ var UnityLoader = UnityLoader || {
             delete i.onload
         }
         ,
+        console.log(i)
         document.body.appendChild(i)
     },
     setupIndexedDBJob: function(e, t) {
