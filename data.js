@@ -3630,7 +3630,7 @@ var UnityLoader = UnityLoader || {
     },
     UnityCache: function() {
         function e(e) {
-            console.log("[UnityCache] " + e)
+            console.log("[UnityCache XXXX] " + e)
         }
         function t(e) {
             return t.link = t.link || document.createElement("a"),
